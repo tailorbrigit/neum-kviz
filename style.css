@@ -1,0 +1,59 @@
+body {
+  font-family: sans-serif;
+  background: #f0f8ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  
+  
+  background: url('neum_hatter.png') no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+
+
+#quiz-container {
+  max-width: 700px;
+  width: 90%;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(0,0,0,0.2);
+}
+
+#next-button{
+    background-color: lightblue;
+    display: block;
+  margin: 10px auto;
+  padding: 15px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  width: 50%;
+  max-width: 500px;
+}
+
+button {
+  display: block;
+  margin: 10px auto;
+  padding: 15px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  width: 100%;
+  max-width: 500px;
+}
+
+#feedback {
+  font-weight: bold;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+
