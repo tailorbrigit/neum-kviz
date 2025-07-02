@@ -17,9 +17,38 @@ const questions = [
   {
     question: "Melyik egyetemen szerzett doktori fokozatot Neumann?",
     options: ["Harvard Egyetem", "Massachusettsi Műszaki Egyetem (MIT)", "Oxfordi Egyetem", "Budapest Tudományegyetem"],
+    correct: 3
+  },
+  {
+    question: "Melyik híres projektben vett részt az Egyesült Államokban?",
+    options: ["Manhattan-terv", "Apollo-program", "Internet feltalálása", "DNS szerkezetének felfedezése"],
     correct: 0
   },
-  
+  {
+    question: "Mi volt Neumann János egyik legfontosabb hozzájárulása a játékelmélethez??",
+    options: ["A bábuk mozgásának leírása sakkban", "A Monopoly szabályainak tökéletesítése", "A minimax elv megfogalmazása", "A számítógépes játékok első grafikájának megalkotása"],
+    correct: 2
+  },
+  {
+    question: "Milyen katonai területen alkalmazták Neumann kutatásait?",
+    options: ["Híradástechnika és radarfejlesztés", "Kézifegyverek tervezése", "Katonai repülőgépek aerodinamikája", "Ballisztika és atomfegyver-fejlesztés"],
+    correct: 3
+  },
+  {
+    question: "Melyik matematikai területhez kapcsolódott Neumann munkássága?",
+    options: ["Operátoralgebra és kvantummechanika", "Kriptográfia és kódelmélet", "Pszichológiai statisztika", "Topológia és geometria"],
+    correct: 0
+  },
+  {
+    question: "Mi a neve annak a számítógépnek, amelyet Neumann János épített Princetonban?",
+    options: ["ENIAC", "IAS számítógép", "IBM 360", "UNIVAC"],
+    correct: 1
+  },
+  {
+    question: "Hol található Neumann János végső nyughelye?",
+    options: ["Budapest, Magyarország", "Berlin, Németország", "Princeton, Egyesült Államok", "Párizs, Franciaország"],
+    correct: 2
+  },
 ];
 
 let currentQuestion = 0;
